@@ -1,4 +1,4 @@
-import { useDashboardStore } from '../../../store/dashboardStore'
+import { useDashboardStore } from '../store/dashboardStore'
 
 export function WorkloadControls() {
     const workload =

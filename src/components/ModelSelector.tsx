@@ -1,8 +1,8 @@
 import { useLiveQuery } from 'dexie-react-hooks'
 
-import { db } from '../../../db/dexie'
+import { db } from '../db/dexie'
 
-import { useDashboardStore } from '../../../store/dashboardStore'
+import { useDashboardStore } from '../store/dashboardStore'
 
 export function ModelSelector() {
     const models = useLiveQuery(

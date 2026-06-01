@@ -6,6 +6,7 @@ interface WorkloadConfig {
     cachedTokens: number
 
     requestsPerDay: number
+    batchDiscountPercent?: number;
 }
 
 interface DashboardStore {
